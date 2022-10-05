@@ -25,7 +25,8 @@ void insertNode(node* &head,int val) {
     temp->next = newNode;
     return;
 }
-//utility function to check presence of intersection
+
+//utility function to check presence of intersection between 2 lists
 node* intersectionPresent(node* head1,node* head2) {
     node* d1 = head1;
     node* d2 = head2;
